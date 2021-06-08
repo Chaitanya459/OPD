@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dermatologist">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="372dp"
+        android:layout_height="282dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:textSize="26sp"
+        android:text="Dermatology is the branch of medicine dealing with the skin. It is a specialty with both medical and surgical aspects.A dermatologist is specialist doctor that manages diseases, in the widest sense, and some cosmetic problems of the skin." />
+
+    <Button
+        android:id="@+id/buttonbook"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="237dp"
+        android:text="BOOK" />
+
+
+</RelativeLayout>
